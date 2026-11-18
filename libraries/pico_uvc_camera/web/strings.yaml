@@ -1,0 +1,52 @@
+tab.camera:
+  cartoon: Peek-a-boo
+  clean: Camera
+  xeno: Eye
+cam.hint:
+  cartoon: Say cheese! One picture from the webcam plugged into the gadget.
+  clean: One picture from the USB webcam on the board.
+  xeno: It opens its eye once, then closes it again.
+cam.snap:
+  cartoon: Cheese!
+  clean: Take picture
+  xeno: Open the eye
+cam.status:
+  cartoon: How's the camera?
+  clean: Camera status
+  xeno: Probe the eye
+lbl.snap:
+  cartoon: Picture
+  clean: Picture
+  xeno: Glimpse
+lbl.camStatus:
+  cartoon: Camera status
+  clean: Camera status
+  xeno: Eye status
+cam.size:
+  cartoon: "How big?"
+  clean: "Size:"
+  xeno: "Aperture:"
+cam.live:
+  cartoon: Keep looking!
+  clean: Live
+  xeno: Keep the eye open
+cam.liveStop:
+  cartoon: Stop looking
+  clean: Stop live
+  xeno: Close the eye
+cam.liveOn:
+  cartoon: "Watching:"
+  clean: "Live:"
+  xeno: "Staring:"
+cam.liveLost:
+  cartoon: the picture got lost, asking again
+  clean: no answer, asking again
+  xeno: the glimpse never came back
+cam.rotLeft:
+  cartoon: Tilt left
+  clean: Rotate left
+  xeno: Turn the eye widdershins
+cam.rotRight:
+  cartoon: Tilt right
+  clean: Rotate right
+  xeno: Turn the eye sunwise

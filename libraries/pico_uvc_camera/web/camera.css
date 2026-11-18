@@ -1,0 +1,5 @@
+.camera-panel { text-align: center; }
+.camera-frame { margin: 1em auto; max-width: 100%; min-height: 2em; }
+.camera-frame img { display: block; margin: 0 auto; max-width: 100%; transition: transform 0.2s; height: auto; border-radius: 4px; }
+.camera-frame img:not([src]) { display: none; }
+.camera-info { font-size: 0.85em; opacity: 0.8; word-break: break-word; }

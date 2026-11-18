@@ -1,0 +1,4 @@
+# Camera: the Camera tab, one picture from the board's USB webcam per press
+# (the snap command of pico_uvc_camera).
+library: pico_uvc_camera
+id: Camera                   # the element id the skins style (#Camera)

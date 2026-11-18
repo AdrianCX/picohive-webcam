@@ -1,0 +1,17 @@
+<div class="control-panel camera-panel">
+    <p data-t="cam.hint">One picture from the webcam on the board's USB port.</p>
+    <label for="cameraSize" data-t="cam.size">Size:</label>
+    <select id="cameraSize" onchange="cameraSizeChosen()">
+        <option value="320x240">320x240</option>
+        <option value="640x480">640x480</option>
+    </select>
+    <input type="button" data-t="cam.snap" value="Snap" onclick="cameraSnap()">
+    <input type="button" id="cameraLive" data-t="cam.live" value="Live" onclick="cameraLiveToggle()">
+    <input type="button" data-t="cam.status" value="Status" onclick="cameraStatus()">
+    <input type="button" data-t="cam.rotLeft" value="Rotate left" onclick="cameraRotate(-90)">
+    <input type="button" data-t="cam.rotRight" value="Rotate right" onclick="cameraRotate(90)">
+    <div class="camera-frame">
+        <img id="cameraImage" alt="">
+    </div>
+    <p id="cameraInfo" class="camera-info"></p>
+</div>
